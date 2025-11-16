@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pets' Pantry - Homemade Pet Treats</title>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Comic Neue', Arial, sans-serif; margin: 0; background: #fff7e8; color: #333; }
+    header { background: #ff9f68; padding: 25px; text-align: center; font-size: 2.2rem; font-weight: bold; color: #fff; }
+    header .paw { font-size: 2.5rem; margin: 0 5px; }
+    nav { display: flex; justify-content: center; gap: 25px; padding: 15px; background: #ffd6a5; }
+    nav a { text-decoration: none; color: #5a3e2b; font-weight: bold; font-size: 1.1rem; transition: color 0.3s; }
+    nav a:hover { color: #ff4b5c; }
+    .hero { background: linear-gradient(45deg, #ffb5e8, #bde0fe, #caffbf); height: 300px; display: flex; align-items: center; justify-content: center; color: #4b2e18;
+            font-size: 2.2rem; font-weight: bold; text-shadow: 2px 2px 5px rgba(255,255,255,0.7); }
+    .section { padding: 50px; max-width: 900px; margin: auto; }
+    h2 { color: #ff6f61; font-size: 1.8rem; margin-bottom: 20px; }
+    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 25px; }
+    .card { background: #ffffff; padding: 25px; border-radius: 16px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: center; border: 3px solid #ffe3d8; transition: transform 0.3s, background 0.3s; }
+    .card h3 { color: #ff8fab; }
+    .card:hover { transform: translateY(-10px); background: #fff0f5; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-top: 30px; }
+    .gallery img { width: 100%; border-radius: 12px; }
+    .order-btn { display: inline-block; padding: 12px 25px; background: #ff4b5c; color: white; border-radius: 12px; text-decoration: none; font-weight: bold; margin-top: 20px; transition: background 0.3s; }
+    .order-btn:hover { background: #ff2a3a; }
+    footer { text-align: center; padding: 25px; background: #ff9f68; color: white; margin-top: 40px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <header><span class="paw">🐾</span> Pets' Pantry <span class="paw">🐾</span></header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#products">Treats</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">Healthy • Homemade • Loved by Pets!</div>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>Our treats are lovingly homemade, fun, playful, and crafted with quality ingredients that pet owners can trust. Perfect for markets, gifting, and everyday spoils!</p>
+  </section>
+
+  <section id="products" class="section">
+    <h2>Our Treat Range</h2>
+    <div class="products">
+      <div class="card">
+        <h3>Baked Crunchy Biscuits</h3>
+        <p>Perfect for dogs who love a crispy snack.</p>
+      </div>
+      <div class="card">
+        <h3>Soft Chews</h3>
+        <p>Gentle on teeth and ideal for smaller breeds.</p>
+      </div>
+      <div class="card">
+        <h3>Homestyle Snack Tubs</h3>
+        <p>Playful, fun, and packed with flavour!</p>
+      </div>
+    </div>
+    <a class="order-btn" href="https://wa.me/your-number">Order Now via WhatsApp</a>
+  </section>
+
+  <section id="gallery" class="section">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://place-puppy.com/300x300" alt="Biscuit">
+      <img src="https://place-puppy.com/301x301" alt="Soft Chew">
+      <img src="https://place-puppy.com/302x302" alt="Snack Tub">
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: pawsometreats@example.com</p>
+    <p>Instagram: @pawsome_treats_sa</p>
+  </section>
+
+  <footer>© 2025 Pets' Pantry – Homemade with Love</footer>
+</body>
+</html>
